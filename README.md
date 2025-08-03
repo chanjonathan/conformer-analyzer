@@ -1,4 +1,4 @@
-# Conformer Counter
+# Conformer Analyzer
 An analysis tool that determines whether substituted cyclohexanes derivative from a Gromacs molecular structure file is in axial or equatorial conformation and determines the total quantity of each.
 
 ## Introduction
