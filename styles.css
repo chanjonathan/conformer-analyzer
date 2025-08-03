@@ -1,0 +1,63 @@
+
+body {
+    margin: 0; 
+    overflow: hidden;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 30px;
+}
+
+button {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 30px;
+    background-color: rgb(106, 121, 136);
+    color: white;
+    padding: 10px;
+    margin : 20px;
+}
+
+canvas { 
+    display: block; 
+}
+
+.label {
+    color: #6e6e6e;
+    font-size: 20px;
+}
+
+.text {
+    margin: 20px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.center {
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+
+#description {
+    text-align: center;
+}
+
+#text-container {
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    top: 70%;
+    justify-self: center;
+    align-content: center;
+    max-width: 800px;
+    width: 100%
+}

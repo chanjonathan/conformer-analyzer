@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Methylcyclohexane in 3D (Hardcoded Bonds)</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.138.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.138.0/examples/js/controls/OrbitControls.js"></script>
+
+
+    <link rel="stylesheet" href="/styles.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+    <body>
+        <div id="viewer-container"></div>
+
+        <div id="text-container">
+
+            <div id="description">
+                Conformer Analyzer determines:
+            </div>
+
+            <div class="inner">
+                <div class="container">
+                <div class="left">
+                    <div class="text label" id="conformation-label">Cyclohexane Conformation</div>
+                    <div class="text" id="conformation"></div>
+                </div>
+
+                <div class="right">
+                    <div class="text label" id="orientation-label">Substituent Orientation</div>
+                    <div class="text" id="orientation"></div>
+                </div>
+            </div>
+            </div>
+
+            <div class="container center">
+                <button 
+                    onclick="pickNew()"
+                    style="align: center"
+                    >
+                    Next Molecule
+                </button>
+            </div>
+        </div>
+
+        <script src="./results.js"></script>
+        <script src="./molecules.js"></script>
+        <script src="./render.js"></script>
+
+    </body>
+</html>
